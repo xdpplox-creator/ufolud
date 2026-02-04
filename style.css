@@ -1,0 +1,31 @@
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image:url(https://fotografiadlaciekawych.pl/wp-content/uploads/2023/02/stary-papier-tlo-160410_IMG_3459_3000px-v2.jpg);
+    font-size: 30px;
+}
+section {
+    margin:10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: auto;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(233, 236, 58);
+    border-radius: 10px;
+}
+.img {
+    height: auto;
+    max-height: 500px;
+    width: auto;
+    max-width: 4500px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(233, 236, 58);
+    border-radius: 10px;
+}

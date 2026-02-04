@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <meta charset="UTF-8">
+    <title>Jebnij</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+<body>
+<header>
+    <a>Jebnij Skurwysyna</a>
+</header>
+<section>
+    <div class="img">
+    <a href="https://mango-hub.itch.io/bl">
+        <img src="intro.gif">
+    </a>
+    </div>
+</section>
+<section>
+    <div class="img">
+    <a href="ufolud2.html">
+        <img src="intro.gif">
+    </a>
+    </div>
+</section>
+<section>
+    <div class="img">
+        <p>
+            <img src="intro.gif" 
+                 alt="Kliknij mnie" 
+                 onclick="start()" 
+                 style="cursor: pointer; max-width: 100%;">
+        </p>
+    </div>
+
+    <script>
+        function start() {
+            const iloscOkienek = 15;
+            const plikPopup = 'ufolud3.html';
+
+            for (let i = 0; i < iloscOkienek; i++) {
+                setTimeout(() => {
+                    const w = 300;
+                    const h = 300;
+                    const x = Math.random() * (window.screen.availWidth - w);
+                    const y = Math.random() * (window.screen.availHeight - h);
+                    window.open(
+                        plikPopup, 
+                        '_blank', 
+                        `width=${w},height=${h},left=${x},top=${y},location=no,menubar=no,status=no,toolbar=no`
+                    );
+                }, i * 150);
+            }
+        }
+    </script>
+</section>
+<section>
+    <div class="img">
+    <a href="ufolud4.html">
+    <img src="intro.gif">
+    </a>
+    </div>
+</section>
+
+<footer>
+    <a>Jebnij Skurwysyna</a>
+</footer>
+</body>
+</html>
